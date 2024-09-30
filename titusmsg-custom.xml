@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEVICEMESSAGES
+	 name="titus"
+	 displayname="Tites Data Classification"
+	 group="Application Servers"
+	 type="7104">
+<VERSION
+	 xml="1"
+	 revision="1"
+	 device="2.0"/>
+<TAGVALMAP
+	 pairdelimiter=" "
+	 encapsulator="&quot;"
+	 valuedelimiter="="/>
+<HEADER
+	 id1="HDR11"
+	 id2="HDR11"
+	 messageid="STRCAT('TITUS_Services')"
+	 content="&lt;hnum1&gt;&lt;htime&gt;&lt;hhost&gt; TITUS_Services - &lt;hhid&gt; - &lt;!payload&gt;"/>
+<MESSAGE
+	 id1="TITUS_Services"
+	 id2="TITUS_Services"
+	 content="&lt;&lt;Event DateTime=&quot;&lt;htime&gt;&quot; EventId=&quot;&lt;id&gt;&quot; EventType=&quot;&lt;event_type&gt;&quot; Level=&quot;&lt;risk&gt;&quot; User=&quot;&lt;user&gt;&quot; Machine=&quot;&lt;alias.host&gt;&quot; IPV4=&quot;&lt;alias.ip&gt;&quot; IPV6=&quot;&lt;hip&gt;&quot; Source=&quot;&lt;event_source&gt;&quot; ProductVersion=&quot;&lt;19.3.2047.1&gt;&quot;&gt;&lt;&lt;/Event&gt;"/>
+<MESSAGE
+	 id1="tcd:01"
+	 id2="tcd"
+	 content="ItemID=&quot;&lt;item.id&gt;&quot; Path=&quot;&lt;directory&gt;&quot; FileName=&quot;&lt;filename&gt;&quot; MachineName=&quot;&lt;alias.host&gt;&quot; OS=&quot;&lt;os&gt;&quot; McAfeeProductCode=&quot;&lt;mcafee_code&gt;&quot; ProductName=&quot;&lt;product&gt;&quot; ProductEdition=&quot;&lt;product.ed&gt;&quot; ProductVersion=&quot;&lt;product.ver&gt;&quot; ItemType=&quot;&lt;ec_subject&gt;&quot; HostProduct=&quot;&lt;process&gt;&quot; Configuration=&quot;&lt;policyname&gt;&quot;&gt;&lt;&lt;Metadata&gt;&lt;&lt;&lt;classification_temp&gt;&gt;&lt;&lt;/Metadata&gt;&lt;&lt;/Event&gt;"/>
+<MESSAGE
+	 id1="tcd:02"
+	 id2="tcd"
+	 content="Path=&quot;&lt;directory&gt;&quot; FileName=&quot;&lt;filename&gt;&quot; RuleName=&quot;&lt;rulename&gt;&quot; ActionName=&quot;&lt;action&gt;&quot; ActionDescription=&quot;&lt;event_description&gt;"/>
+<MESSAGE
+	 id1="tcd:03"
+	 id2="tcd"
+	 content="Error=&quot;&lt;error&gt;&quot; MachineName=&quot;&lt;alias.host&gt;&quot; OS=&quot;&lt;os&gt;&quot; McAfeeProductCode=&quot;&lt;mcafee_code&gt;&quot; ProductName=&quot;&lt;product&gt;&quot; ProductEdition=&quot;&lt;product.ed&gt;&quot; ProductVersion=&quot;&lt;product.ver&gt;&quot; ItemType=&quot;&lt;ec_subject&gt;&quot; HostProduct=&quot;&lt;process&gt;&quot;&gt;&lt;&lt;/Event&gt;"/>
+<MESSAGE
+	 id1="tco:04"
+	 id2="tco"
+	 content="Error=&quot;&lt;error&gt;"/>
+<MESSAGE
+	 id1="tmc:06"
+	 id2="tmc"
+	 content="Subject=&quot;&lt;subject&gt;&quot; Sender=&quot;&lt;from&gt;&quot; ItemID=&quot;&lt;item.id&gt;&quot; ItemType=&quot;&lt;ec_subject&gt;&quot; OriginalMetadata=&quot;&lt;orig.meta&gt;&quot; MachineName=&quot;&lt;alias.host&gt;&quot; OS=&quot;&lt;os&gt;&quot; McAfeeProductCode=&quot;&lt;mcafee_code&gt;&quot; ProductName=&quot;&lt;product&gt;&quot; ProductEdition=&quot;&lt;product.ed&gt;&quot; ProductVersion=&quot;&lt;product.ver&gt;&quot; HostProduct=&quot;&lt;process&gt;&quot; HostProductVersion=&quot;&lt;hproduct.ver&gt;&quot; Configuration=&quot;&lt;policyname&gt;&quot;&gt;&lt;&lt;Metadata&gt;&lt;&lt;&lt;classification_temp&gt;&gt;&lt;&lt;/Metadata&gt;&lt;&lt;Recipients&gt;&lt;&lt;&lt;recipient_temp&gt;&gt;&lt;&lt;/Recipients&gt;&lt;&lt;Attachments&gt;&lt;&lt;&lt;attachment_temp&gt;&gt;&lt;&lt;/Attachments&gt;&lt;&lt;/Event&gt;"/>
+<MESSAGE
+	 id1="tmc:07"
+	 id2="tmc"
+	 content="Error=&quot;&lt;error&gt;&quot; MachineName=&quot;&lt;alias.host&gt;&quot; OS=&quot;&lt;os&gt;&quot; McAfeeProductCode=&quot;&lt;mcafee_code&gt;&quot; ProductName=&quot;&lt;product&gt;&quot; ProductEdition=&quot;&lt;product.ed&gt;&quot; ProductVersion=&quot;&lt;product.ver&gt;&quot; HostProduct=&quot;&lt;process&gt;&quot; HostProductVersion=&quot;&lt;hproduct.ver&gt;&quot;&gt;&lt;&lt;/Event&gt;"/>
+<MESSAGE
+	 id1="tmc action:02"
+	 id2="tmc action"
+	 content="TransactionId=&quot;&lt;trans_id&gt;&quot; MachineName=&quot;&lt;alias.host&gt;&quot; OS=&quot;&lt;os&gt;&quot; McAfeeProductCode=&quot;&lt;mcafee_code&gt;&quot; ProductName=&quot;&lt;product&gt;&quot; ProductEdition=&quot;&lt;product.ed&gt;&quot; ProductVersion=&quot;&lt;product.ver&gt;&quot; HostProduct=&quot;&lt;process&gt;&quot; HostProductVersion=&quot;&lt;hproduct.ver&gt;&quot; Configuration=&quot;&lt;policyname&gt;&quot;&gt;&lt;&lt;Metadata&gt;&lt;&lt;&lt;classification_temp&gt;&gt;&lt;&lt;/Metadata&gt;&lt;&lt;Recipients /&gt;&lt;&lt;Attachments&gt;&lt;&lt;&lt;attachment_temp&gt;&gt;&lt;&lt;/Attachments&gt;&lt;&lt;/Event&gt;"/>
+<MESSAGE
+	 id1="tmc action:03"
+	 id2="tmc action"
+	 content="TransactionId=&quot;&lt;trans_id&gt;&quot; ActionDescription=&quot;&lt;event_description&gt;&quot; MachineName=&quot;&lt;alias.host&gt;&quot; OS=&quot;&lt;os&gt;&quot; McAfeeProductCode=&quot;&lt;mcafee_code&gt;&quot; ProductName=&quot;&lt;product&gt;&quot; ProductEdition=&quot;&lt;product.ed&gt;&quot; ProductVersion=&quot;&lt;product.ver&gt;&quot; HostProduct=&quot;&lt;process&gt;&quot; HostProductVersion=&quot;&lt;hproduct.ver&gt;&quot; Configuration=&quot;&lt;policyname&gt;&quot;&gt;&lt;&lt;Metadata&gt;&lt;&lt;&lt;classification_temp&gt;&gt;&lt;&lt;/Metadata&gt;&lt;&lt;Recipients /&gt;&lt;&lt;Attachments /&gt;&lt;&lt;/Event&gt;"/>
+<MESSAGE
+	 id1="watcher:04"
+	 id2="watcher"
+	 content="Error=&quot;&lt;error&gt;&quot; MachineName=&quot;&lt;alias.host&gt;&quot; OS=&quot;&lt;os&gt;&quot; McAfeeProductCode=&quot;&lt;mcafee_code&gt;&quot; ProductName=&quot;&lt;product&gt;&quot; ProductEdition=&quot;&lt;product.ed&gt;&quot; ProductVersion=&quot;&lt;product.ver&gt;&quot; ItemType=&quot;&lt;ec_subject&gt;&quot; HostProduct=&quot;&lt;process&gt;&quot;&gt;&lt;&lt;/Event&gt;"/>
+<MESSAGE
+	 id1="watcher:05"
+	 id2="watcher"
+	 content="Error=&quot;&lt;error&gt; for user &lt;user&gt;"/>
+</DEVICEMESSAGES>
